@@ -5,10 +5,6 @@
   "installCommand": "npm install",
   "rewrites": [
     {
-      "source": "/api/:path*",
-      "destination": "https://[YOUR_RAILWAY_URL]/api/:path*"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
